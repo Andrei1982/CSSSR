@@ -16,10 +16,10 @@ public class NavigateOnTheLink {
 		
 		String currentWindow = driver.getWindowHandle();
 		
-		WebElement link = driver.findElement(By.linkText("ÍÀÕÎÄÈÒÜ ÍÅÑÎÂÅĞØÅÍÑÒÂÀ"));
+		WebElement link = driver.findElement(By.linkText("ĞĞĞ¥ĞĞ”Ğ˜Ğ¢Ğ¬ ĞĞ•Ğ¡ĞĞ’Ğ•Ğ Ğ¨Ğ•ĞĞ¡Ğ¢Ğ’Ğ"));
 		link.click();
 		
-		WebElement linkToNavigate = driver.findElement(By.linkText("Ñîôò äëÿ áûñòğîãî ñîçäàíèÿ ñêğèíøîòîâ"));
+		WebElement linkToNavigate = driver.findElement(By.linkText("Ğ¡Ğ¾Ñ„Ñ‚ Ğ´Ğ»Ñ Ğ±Ñ‹ÑÑ‚Ñ€Ğ¾Ğ³Ğ¾ ÑĞ¾Ğ·Ğ´Ğ°Ğ½Ğ¸Ñ ÑĞºÑ€Ğ¸Ğ½ÑˆĞ¾Ñ‚Ğ¾Ğ²"));
 		linkToNavigate.click();
 		
 		for(String childHandle : driver.getWindowHandles()){
